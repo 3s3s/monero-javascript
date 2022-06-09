@@ -1,4 +1,4 @@
-const GenUtils = require("../common/GenUtils");
+const GenUtils = require("./GenUtils");
 const LibraryUtils = require("./LibraryUtils");
 const MoneroUtils = require("./MoneroUtils");
 const ThreadPool = require("./ThreadPool");

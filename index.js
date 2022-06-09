@@ -209,7 +209,7 @@ module.exports.connectToWalletRpc = function() { return module.exports.MoneroWal
  * @param {fs} config.fs - Node.js compatible file system to use (defaults to disk or in-memory FS if browser)
  * @return {MoneroWalletFull} the created wallet
  */
-module.exports.createWalletFull = function() { return module.exports.MoneroWalletFull.createWallet(...arguments); }
+module.exports.createUSDXWalletFull = function() { return module.exports.MoneroWalletFull.createWallet(...arguments); }
 
 /**
  * <p>Open an existing Monero wallet using fully client-side WebAssembly bindings to monero-project's wallet2 in C++.<p>

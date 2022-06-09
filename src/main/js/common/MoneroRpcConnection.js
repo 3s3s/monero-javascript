@@ -1,8 +1,8 @@
 const GenUtils = require("./GenUtils");
 const HttpClient = require("./HttpClient");
 const LibraryUtils = require("./LibraryUtils");
-const MoneroError = require("../common/MoneroError");
-const MoneroRpcError = require("../common/MoneroRpcError");
+const MoneroError = require("./MoneroError");
+const MoneroRpcError = require("./MoneroRpcError");
 const MoneroUtils = require("./MoneroUtils");
 
 /**
